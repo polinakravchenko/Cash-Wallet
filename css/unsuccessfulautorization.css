@@ -1,0 +1,149 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(24, 23, 24, 0.9);
+}
+div.header {
+    height: 18vmin;
+    width: auto;
+}
+div.icon {
+    text-align: center;
+}
+.name_icon {
+    width: 90vmin;
+    position: relative;
+    top: -8.1vmin;
+    right: 1vmin;
+    z-index: 1;
+}
+div.main {
+    height: 65vmin;
+    width: 47vmin;
+    margin: 0 auto;
+    background-color: rgba(146, 195, 117, 1);
+    border: 0.7vmin solid white;
+    border-radius: 5.5vmin;
+    position: relative;
+    top: -28vmin;
+}
+#oops{
+    position: relative;
+    text-align: center;
+    font-size: 3.3vmin;
+    line-height: 1.2vmin;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 11vmin;
+}
+#request{
+    position: relative;
+    text-align: center;
+    font-size: 2.5vmin;
+    line-height: 2vmin;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    top: 10.8vmin;
+}
+#phonenumber{
+    position: relative;
+    text-align: left;
+    right: -2vmin;
+    font-size: 2.4vmin;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(246, 250, 237, 1);
+    top: 11.5vmin;
+}
+#number{
+    position: relative;
+    text-align: left;
+    right: -2vmin;
+    top: 10.5vmin;
+    width: 31vmin;
+    height: 4vmin;
+    background-color: rgba(192, 215, 195, 1);
+    border: none;
+    border-radius: 1.2vmin;
+    font-size: 2.3vmin;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(75, 72, 72, 1);
+}
+#password{
+    position: relative;
+    text-align: left;
+    right: -2vmin;
+    font-size: 2.4vmin;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(246, 250, 237, 1);
+    top: 10vmin;
+}
+#addpassword{
+    position: relative;
+    text-align: left;
+    right: -2vmin;
+    top: 9vmin;
+    width: 31vmin;
+    height: 4vmin;
+    border: none;
+    background-color: rgba(192, 215, 195, 1);
+    border-radius: 1.2vmin;
+    font-size: 2.3vmin;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 38);
+}
+.redbutton{
+    text-align: left;
+}
+.cancel{
+    position: relative;
+    left: 5vmin;
+    top: 17vmin;
+    background-color: rgb(151, 86, 66);
+    border: none;
+    border-radius: 1.5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2vmin;
+    font-weight: bold;
+    color: white;
+    width: 15vmin;
+    height: 6vmin;
+    -webkit-box-shadow: -6px 6px 3px -4px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: -6px 6px 3px -4px rgba(0, 0, 0, 0.27);
+    box-shadow: -6px 6px 3px -4px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+}
+.cancel:hover{
+    background-color: rgb(174, 90, 65);
+}
+.greenbutton{
+    text-align: right;
+}
+.confirm{
+    position: relative;
+    right: 5vmin;
+    top: 11vmin;
+    background-color: rgba(116, 162, 59, 1);
+    border: none;
+    border-radius: 1.5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2vmin;
+    font-weight: bold;
+    color: white;
+    width: 15vmin;
+    height: 6vmin;
+    -webkit-box-shadow: 6px 7px 3px -4px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 6px 7px 3px -4px rgba(0, 0, 0, 0.27);
+    box-shadow: 6px 7px 3px -4px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+}
+.confirm:hover{
+    background-color: rgb(126, 176, 64);
+}
